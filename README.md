@@ -128,11 +128,6 @@ iSpeak-v3/
 └── models/
 
 
----
-
-# Add Installation Section
-
-```md
 # Installation
 
 ## Clone Repository
@@ -140,34 +135,28 @@ iSpeak-v3/
 ```bash
 git clone https://github.com/yourusername/iSpeak-v3.git
 cd iSpeak-v3
+```
 
+## Create Virtual Environment
+
+```bash
 python3.11 -m venv venv
 source venv/bin/activate
+```
 
+## Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
+## Run
+
+```bash
 python3.11 ispeak_v2.py
-
+```
 
 ---
-
-# Create requirements.txt
-
-Create a file named:
-
-```text
-requirements.txt
-
-torch
-transformers
-faster-whisper
-IndicTransToolkit
-sounddevice
-scipy
-numpy
-Pillow
-adafruit-circuitpython-ssd1306
-RPi.GPIO
 
 # Engineering Challenges Solved
 

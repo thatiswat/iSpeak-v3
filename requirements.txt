@@ -1,0 +1,10 @@
+torch
+transformers
+faster-whisper
+IndicTransToolkit
+sounddevice
+scipy
+numpy
+Pillow
+adafruit-circuitpython-ssd1306
+RPi.GPIO
